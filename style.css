@@ -112,3 +112,27 @@ img{
     grid-area: "footer";
     grid-column: footer;
 }
+@media (max-width: 820px){
+    .container{
+        grid-template-areas:
+     
+        "sidenav item item"
+        "sidenav item item"
+        "sidenav item item"
+        "sidenav item item"
+        "sidenav item item"
+        "sidenav item item"   
+        "footer footer footer";
+
+    }
+}
+
+@media (max-width: 820px){
+    .container{
+        grid-template-areas:
+     
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
